@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FirstActivity</string>
+    <string name="texto">Texto</string>
+    <string name="textoDani">Dani Te AMo</string>
+    <string name="passwordText">Senha</string>
+    <string name="emailText">E-mail</string>
+    <string name="login">Login</string>
+    <string name="register">Cadastro</string>
+    <string name="headerText">Seguros XPTO</string>
+    <string name="servicos">Serviços</string>
+    <string name="automoveis">Automóveis</string>
+    <string name="imoveis">Imóveis</string>
+    <string name="discount">Descontos de 5% ao assinar esse mês!</string>
+    <string name="news">Novidades</string>
+    <string name="help">Precisa de ajuda?</string>
+    <string name="entre_em_contato">Entre em contato</string>
+    <string name="data_validation"> Informe seus dados!</string>
+</resources>

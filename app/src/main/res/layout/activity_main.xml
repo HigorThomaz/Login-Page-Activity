@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cyan"
+
+    tools:ignore="ExtraText">
+
+
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingHorizontal="10dp"
+        android:hint="@string/emailText"
+        android:autofillHints="emailAddress"
+        android:background="@color/white"
+        android:inputType="text"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="password"
+        android:background="@color/white"
+        android:hint="@string/passwordText"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        >
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+
+
+        >
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
